@@ -1,0 +1,103 @@
+/* src/pages/AuthorityDashboard.css */
+
+.dashboard-container {
+  padding-top: 6rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #f4f7fa;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.dashboard-container h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  border-bottom: 2px solid #003366;
+  padding-bottom: 0.5rem;
+}
+
+.issues-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.issue-card {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border-left: 5px solid #007acc;
+  transition: transform 0.2s ease-in-out;
+}
+
+.issue-card:hover {
+  transform: scale(1.01);
+}
+
+.issue-title {
+  font-weight: bold;
+  color: #002244;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.issue-description {
+  color: #444;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.issue-status {
+  margin-top: 0.5rem;
+  font-weight: 600;
+  color: #007acc;
+}
+
+.response-input {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+}
+
+.respond-button {
+  margin-top: 1rem;
+  background-color: #007acc;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.respond-button:hover {
+  background-color: #005fa3;
+}
+
+/* Responsive Enhancements */
+@media (max-width: 768px) {
+  .dashboard-container {
+    padding: 1.5rem 1rem;
+  }
+
+  .issue-title {
+    font-size: 1rem;
+  }
+
+  .response-input {
+    font-size: 0.95rem;
+  }
+
+  .respond-button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+}

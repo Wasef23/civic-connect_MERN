@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #e0f7fa, #b1b1b1);
+  min-height: 100vh;
+}
+
+/* Center and style the form container */
+.report-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.report-container h2 {
+  text-align: center;
+  color: #00796b;
+  margin-bottom: 25px;
+}
+
+/* Labels and inputs */
+.report-container label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+.report-container input,
+.report-container textarea,
+.report-container select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.report-container input:focus,
+.report-container textarea:focus,
+.report-container select:focus {
+  border-color: #00796b;
+  box-shadow: 0 0 5px rgba(0, 121, 107, 0.3);
+  outline: none;
+}
+
+/* Submit button */
+.report-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #00796b;
+  color: #f4eeee;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.report-container button:hover {
+  background-color: #004d40;
+}

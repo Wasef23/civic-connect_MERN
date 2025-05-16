@@ -1,0 +1,156 @@
+/* Home.css */
+.home-container {
+  padding-top: 80px; /* Account for fixed navbar */
+  background-color: #95a1a2; /* Light, formal background */
+  color: #333;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header Section */
+.home-header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #003366;
+  color: #fff;
+}
+
+.home-header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.home-header p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Gallery Section */
+.home-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.home-gallery img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border: 2px solid #003366;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Info Section */
+.home-info {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.home-info h2 {
+  font-size: 2rem;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.home-info p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
+
+/* Buttons */
+.home-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #003366;
+  color: #fff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #002244;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #003366;
+  border: 2px solid #003366;
+}
+
+.btn-secondary:hover {
+  background-color: #003366;
+  color: #fff;
+}
+
+.btn-tertiary {
+  background-color: #006699;
+  color: #fff;
+  border: none;
+}
+
+.btn-tertiary:hover {
+  background-color: #005580;
+}
+
+/* Contact Section */
+.home-contact {
+  background-color: #72cc775a;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.home-contact h2 {
+  font-size: 2rem;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.home-contact p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.home-contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.home-contact li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .home-gallery img {
+    width: 100%;
+    max-width: 300px;
+  }
+  .home-header h1 {
+    font-size: 2.2rem;
+  }
+  .home-header p {
+    font-size: 1rem;
+  }
+}

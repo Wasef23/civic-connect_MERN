@@ -1,0 +1,35 @@
+/* src/components/Navbar.css */
+.navbar {
+    background-color: #003366;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 1rem 0;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .navbar-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar a, .navbar button {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .navbar a:hover, .navbar button:hover {
+    text-decoration: underline;
+  }
+  
